@@ -7,8 +7,7 @@ int main()
     glewExperimental = GL_TRUE;
 
     if (glewInit() != GLEW_OK) {
-        glfwTerminate();
-        throw "Error in GLEW INIT!";
+        std::cout << "yupppppppp\n";
     }
 
     system("PAUSE");
